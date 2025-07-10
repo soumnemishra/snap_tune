@@ -57,7 +57,7 @@ def recommend_songs(image_mood, text_sentiment, model, songs_df):
 # Streamlit App UI
 
 st.set_page_config(page_title="SnapTune", layout="centered")
-st.title(" SnapTune - Mood Based Song Recommender")
+st.title(" SnapTune -  Song Recommender")
 
 # Upload image
 uploaded_image = st.file_uploader("Upload an image ", type=['jpg', 'png', 'jpeg'])
